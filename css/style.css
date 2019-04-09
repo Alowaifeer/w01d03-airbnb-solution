@@ -1,0 +1,80 @@
+body {
+  margin: 0 auto;
+  background-color: #eaeae8;
+  color: #555;
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+section {
+  max-width: 900px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0 0 5px 0;
+}
+
+p {
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  color: white;
+  width: 280px;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sanfran {
+  background-image: url("../img/san-francisco.jpg")
+}
+
+#newyork {
+  background-image: url("../img/new-york.jpg")
+}
+
+#london {
+  background-image: url("../img/london.jpg")
+}
+
+#napa {
+  background-image: url("../img//napa.jpg")
+}
+
+#sonoma {
+  background-image: url("../img/sonoma.jpg")
+}
+
+#sanfran2 {
+  background-image: url("../img/san-francisco-2.jpg")
+}
+
+button {
+  width: 280px;
+  padding: 10px 0;
+  margin: 40px 0;
+  background-color: white;
+  border: 1px solid #aaa;
+  font-size: .8em;
+  font-weight: 600;
+  color: #555;
+}
